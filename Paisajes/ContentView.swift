@@ -16,10 +16,11 @@ struct ContentView: View {
             HStack {
                 Text("46.8182° N, 8.2275° E,")
                     .font(.subheadline)
+                Spacer()
                 Text("Bern")
             }
-            
         }
+        .padding()
     }
 }
 

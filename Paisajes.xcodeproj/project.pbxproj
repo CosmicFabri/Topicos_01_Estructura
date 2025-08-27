@@ -11,6 +11,7 @@
 		8D6B31512E5F6CFF000939C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B31502E5F6CFF000939C9 /* ContentView.swift */; };
 		8D6B31532E5F6D02000939C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D6B31522E5F6D02000939C9 /* Assets.xcassets */; };
 		8D6B31572E5F6D02000939C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D6B31562E5F6D02000939C9 /* Preview Assets.xcassets */; };
+		8D6B315E2E5F76B8000939C9 /* CircularImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B315D2E5F76B8000939C9 /* CircularImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		8D6B31522E5F6D02000939C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D6B31542E5F6D02000939C9 /* Paisajes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Paisajes.entitlements; sourceTree = "<group>"; };
 		8D6B31562E5F6D02000939C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8D6B315D2E5F76B8000939C9 /* CircularImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		8D6B314D2E5F6CFF000939C9 /* Paisajes */ = {
 			isa = PBXGroup;
 			children = (
+				8D6B315D2E5F76B8000939C9 /* CircularImage.swift */,
 				8D6B314E2E5F6CFF000939C9 /* PaisajesApp.swift */,
 				8D6B31502E5F6CFF000939C9 /* ContentView.swift */,
 				8D6B31522E5F6D02000939C9 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 			files = (
 				8D6B31512E5F6CFF000939C9 /* ContentView.swift in Sources */,
 				8D6B314F2E5F6CFF000939C9 /* PaisajesApp.swift in Sources */,
+				8D6B315E2E5F76B8000939C9 /* CircularImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
