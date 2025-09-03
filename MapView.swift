@@ -12,7 +12,7 @@ import MapKit
 
 struct MapView: View {
     var body: some View {
-        Map(coordinateRegion: .region(region))
+        Map(coordinateRegion: .constant(region))
     }
     
     private var region: MKCoordinateRegion {
