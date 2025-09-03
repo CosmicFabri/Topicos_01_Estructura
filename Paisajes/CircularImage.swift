@@ -15,6 +15,7 @@ struct CircularImage: View {
                 Circle().stroke(.white, lineWidth: 4)
             }
             .shadow(radius: 7)
+            .frame(width: 0.1, height: 0.1)
     }
 }
 

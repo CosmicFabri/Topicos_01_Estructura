@@ -15,7 +15,7 @@ struct ContentView: View {
                 .offset(y: -130)
                 .padding(.bottom, -130)
             VStack(alignment: .leading) {
-                Text("Suiza")
+                Text("Switzerland")
                     .font(.title)
                     .padding()
                     .foregroundColor(.green)
