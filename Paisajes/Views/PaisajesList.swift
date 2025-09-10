@@ -9,8 +9,17 @@ import SwiftUI
 
 struct PaisajesList: View {
     var body: some View {
-        List (paisajes, id: \.id) { paisaje in
-            PaisajeRow(paisaje: paisaje)
+        NavigationSplitView {
+            List (paisajes) { paisaje in
+                NavigationLink {
+                    PaisajeDetail(paisaje: paisaje)
+                } label: {
+                    PaisajeRow(paisaje: paisaje)
+                }
+            }
+            .navigationTitle("Cool places")
+        } detail: {
+            Text("Selecciona un lugar")
         }
     }
 }
