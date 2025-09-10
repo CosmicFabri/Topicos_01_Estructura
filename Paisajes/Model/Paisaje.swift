@@ -35,4 +35,8 @@ struct Paisaje: Hashable, Codable, Identifiable {
             longitude: coordinates.longitude
         )
     }
+    
+    public func getImageName() -> String {
+        return imageName
+    }
 }
