@@ -18,6 +18,7 @@
 		8DA420F82E71E4C600549C26 /* PaisajeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA420F72E71E4C600549C26 /* PaisajeRow.swift */; };
 		8DA420FA2E71E6E900549C26 /* PaisajesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA420F92E71E6E900549C26 /* PaisajesList.swift */; };
 		8DA420FC2E71E94300549C26 /* PaisajeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA420FB2E71E94300549C26 /* PaisajeDetail.swift */; };
+		8DF61CA02E8461CD0079DCDA /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF61C9F2E8461CD0079DCDA /* FavoriteButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		8DA420F72E71E4C600549C26 /* PaisajeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaisajeRow.swift; sourceTree = "<group>"; };
 		8DA420F92E71E6E900549C26 /* PaisajesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaisajesList.swift; sourceTree = "<group>"; };
 		8DA420FB2E71E94300549C26 /* PaisajeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaisajeDetail.swift; sourceTree = "<group>"; };
+		8DF61C9F2E8461CD0079DCDA /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				8DA420F72E71E4C600549C26 /* PaisajeRow.swift */,
 				8DA420F92E71E6E900549C26 /* PaisajesList.swift */,
 				8DA420FB2E71E94300549C26 /* PaisajeDetail.swift */,
+				8DF61C9F2E8461CD0079DCDA /* FavoriteButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				8D6B31512E5F6CFF000939C9 /* ContentView.swift in Sources */,
 				8DA420FA2E71E6E900549C26 /* PaisajesList.swift in Sources */,
 				8D6B31602E5F78E9000939C9 /* MapView.swift in Sources */,
+				8DF61CA02E8461CD0079DCDA /* FavoriteButton.swift in Sources */,
 				8DA420FC2E71E94300549C26 /* PaisajeDetail.swift in Sources */,
 				8D6B314F2E5F6CFF000939C9 /* PaisajesApp.swift in Sources */,
 				8DA420EF2E71DC3300549C26 /* Paisaje.swift in Sources */,

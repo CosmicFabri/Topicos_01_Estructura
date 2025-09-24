@@ -34,5 +34,6 @@ struct MapView_Previews: PreviewProvider {
             latitude: 19.845_911,
             longitude: -90.477_336
         ))
+        .frame(height: 300)
     }
 }
