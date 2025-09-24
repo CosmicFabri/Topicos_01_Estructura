@@ -16,6 +16,12 @@ struct PaisajeRow: View {
                 .resizable()
                 .frame(width: 50, height: 50)
             Spacer()
+            
+            if paisaje.isFavorite {
+                Image(systemName: "star.fill")
+                    .foregroundStyle(.yellow)
+            }
+            
             Text(paisaje.name)
         }
     }

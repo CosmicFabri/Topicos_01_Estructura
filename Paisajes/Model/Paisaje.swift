@@ -15,6 +15,7 @@ struct Paisaje: Hashable, Codable, Identifiable {
     var location: String
     var state: String
     var description: String
+    var isFavorite: Bool
     
     private var imageName: String
     
