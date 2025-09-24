@@ -9,8 +9,8 @@ import Foundation
 
 import Foundation
 
-class ModelData {
-    
+class ModelData: ObservableObject {
+    @Published var paisajes: [Paisaje] = load("landmarkData.json")
 }
 
 func load<T: Decodable>(_ filename: String) -> T {
@@ -34,5 +34,3 @@ func load<T: Decodable>(_ filename: String) -> T {
         fatalError("No pude leer \(filename) como \(T.self):\n\(error)")
     }
 }
-
-var paisajes: [Paisaje] = load("landmarkData.json")

@@ -40,6 +40,6 @@ struct PaisajeDetail: View {
 
 struct PaisajeDetail_Previews: PreviewProvider {
     static var previews: some View {
-        PaisajeDetail(paisaje: paisajes[0])
+        PaisajeDetail(paisaje: ModelData().paisajes[0])
     }
 }

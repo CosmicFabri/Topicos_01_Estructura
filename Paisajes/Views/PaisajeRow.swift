@@ -27,10 +27,13 @@ struct PaisajeRow: View {
     }
 }
 
-
-
-// struct PaisajeRow_Previews: PreviewProvider {
-//     static var previews: some View {
-//        PaisajeRow(paisaje: paisajes[0])
-//     }
-// }
+struct PaisajeRow_Previews: PreviewProvider {
+    static var previews: some View {
+        let paisajes = ModelData().paisajes
+        
+        return Group {
+            PaisajeRow(paisaje: paisajes[0])
+            PaisajeRow(paisaje: paisajes[1])
+        }
+    }
+}

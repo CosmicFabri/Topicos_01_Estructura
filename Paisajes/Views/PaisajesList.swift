@@ -8,10 +8,11 @@
 import SwiftUI
 
 struct PaisajesList: View {
+    @EnvironmentObject var modelData: ModelData
     @State private var showFavoritesOnly = false
     
     var filteredPaisajes: [Paisaje] {
-        paisajes.filter { paisaje in
+        modelData.paisajes.filter { paisaje in
             (!showFavoritesOnly || paisaje.isFavorite)
         }
     }
@@ -41,6 +42,6 @@ struct PaisajesList: View {
 
 struct PaisajesList_Previews: PreviewProvider {
     static var previews: some View {
-        PaisajesList()
+        PaisajesList().environmentObject(ModelData())
     }
 }
